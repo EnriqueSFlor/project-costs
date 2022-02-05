@@ -1,5 +1,7 @@
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import Container from './components/layout/Container';
+import Footer from './components/layout/Footer';
+import Navbar from './components/layout/Navbar';
 import Company from './components/pages/Company';
 import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
@@ -8,12 +10,8 @@ import NewProject from './components/pages/NewProject';
 function App() {
   return (
    <Router>
-     <div>
-       <Link to="/">Home</Link>
-       <Link to="/company">Empresa</Link>
-       <Link to="/contact">Contato</Link>
-       <Link to="/newproject">Novo projeto</Link>
-     </div>
+   
+    <Navbar/>
 
      <Container customClass="minHeight">
      <Routes>
@@ -23,9 +21,7 @@ function App() {
        <Route exact path="/newproject" element={<NewProject />}/>
      </Routes>
      </Container>
-     <p>Footer</p>
-
-     
+      <Footer/>    
    </Router>
   );
 }
