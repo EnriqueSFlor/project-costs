@@ -7,13 +7,18 @@ import Container from './Container'
 export default function Navbar(){
     return (
 
+    <nav className={styles.navbar}>
     <Container>
-    <nav>
-        <Link to="/">Home</Link>
-        <Link to="/company">Empresa</Link>
-        <Link to="/contact">Contato</Link>
-        <Link to="/newproject">Novo projeto</Link>
-    </nav>  
+        <Link to="/">
+            <img src={logo} alt="Costs"/>
+        </Link>
+            <ul className={styles.list}>
+                <li className={styles.item}><Link to="/">Home</Link></li>
+                <li className={styles.item}><Link to="/projects">Projetos</Link></li>
+                <li className={styles.item}><Link to="/company">Empresa</Link></li>
+                <li className={styles.item}> <Link to="/contact">Contato</Link></li>
+            </ul>
     </Container>
+    </nav> 
     )
 }
