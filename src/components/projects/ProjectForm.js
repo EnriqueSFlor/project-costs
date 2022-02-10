@@ -40,7 +40,7 @@ export default function ProjectForm({btnText}){
             <Select
                 name="category_id" 
                 text="Selectione a categoria"
-                option={categories}/>
+                options={categories}/>
 
             <SubmitButton
                 text={btnText}/>
