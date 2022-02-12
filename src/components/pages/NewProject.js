@@ -14,7 +14,7 @@ export default function NewProject(){
         project.services = []
 
         fetch('http://localhost:5000/projects',{
-            method: 'POST',
+            method:'POST',
             headers: {
                 'Content-type': 'application/json',
             },

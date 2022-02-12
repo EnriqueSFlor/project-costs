@@ -5,7 +5,7 @@ import Select from '../form/Select'
 import SubmitButton from '../form/SubmitButton'
 import styles from './ProjectForm.module.css'
 
-export default function ProjectForm({handleSubmit,btnText, projectData}){
+export default function ProjectForm({handleSubmit, btnText, projectData}){
 
     const [categories, setCategories] = useState([])
     const [project, setProject] = useState(projectData || {})
@@ -32,14 +32,14 @@ export default function ProjectForm({handleSubmit,btnText, projectData}){
    }
 
    function handleChange(e) {
-       setProject({ ...project, [e.target.name]: e.target.value})
+       setProject({...project, [e.target.name]: e.target.value})
     
    }
 
    function handleCategory(e) {
-    setProject({ ...project, category:{
+    setProject({ ...project, category: {
         id: e.target.value,
-        name: e.target.options[e.target.selectIndex].text,
+        name: e.target.options[e.target.selectedIndex].text,
     }},)
   
     }
