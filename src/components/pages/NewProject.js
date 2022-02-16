@@ -19,8 +19,9 @@ export default function NewProject(){
                 'Content-type': 'application/json',
             },
             body: JSON.stringify(project),
-        }).then((resp) => resp.json())
-            .then((data) => {
+        })
+        .then((resp) => resp.json())
+        .then((data) => {
             console.log(data)
             //redirect
             navigate('/projects', { state: {message: 'Projeto criado com sucesso!'} })
