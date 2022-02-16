@@ -1,5 +1,5 @@
-import { useLocation } from "react-router-dom";
-import Message from "../layout/Message";
+import { useLocation } from "react-router-dom"
+import Message from "../layout/Message"
 
 export default function Projects() {
 
@@ -12,7 +12,7 @@ export default function Projects() {
     return (
         <div>
             <h1>Meus Projetos</h1>
-             {message && <Message type="success" msg={message}/>} 
+            {message && <Message type="success" msg={message}/>}
         </div>
     )
 }

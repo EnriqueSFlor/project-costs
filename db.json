@@ -2,10 +2,10 @@
   "projects": [
     {
       "name": "teste",
-      "budget": "123",
+      "budget": "5000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
@@ -13,10 +13,10 @@
     },
     {
       "name": "teste",
-      "budget": "1234",
+      "budget": "5000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
@@ -24,10 +24,10 @@
     },
     {
       "name": "teste",
-      "budget": "1234",
+      "budget": "5000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
@@ -35,10 +35,10 @@
     },
     {
       "name": "teste",
-      "budget": "12345",
+      "budget": "5000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
@@ -46,10 +46,10 @@
     },
     {
       "name": "teste",
-      "budget": "12345",
+      "budget": "5000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
@@ -57,10 +57,10 @@
     },
     {
       "name": "teste",
-      "budget": "12345",
+      "budget": "5000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
@@ -68,10 +68,10 @@
     },
     {
       "name": "teste",
-      "budget": "12345",
+      "budget": "5000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
@@ -79,10 +79,10 @@
     },
     {
       "name": "teste",
-      "budget": "12345",
+      "budget": "5000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
@@ -90,47 +90,14 @@
     },
     {
       "name": "teste",
-      "budget": "12345",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 9
-    },
-    {
-      "name": "teste",
-      "budget": "12345",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 10
-    },
-    {
-      "name": "teste",
-      "budget": "12345",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 11
-    },
-    {
-      "name": "Artti",
-      "budget": "2000",
+      "budget": "5000",
       "category": {
         "id": "3",
         "name": "Design"
       },
       "cost": 0,
       "services": [],
-      "id": 12
+      "id": 9
     }
   ],
   "categories": [

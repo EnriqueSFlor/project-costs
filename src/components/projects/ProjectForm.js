@@ -27,7 +27,6 @@ export default function ProjectForm({handleSubmit, btnText, projectData}){
 
    const submit = (e) => {
        e.preventDefault()
-      // console.log(project)
         handleSubmit(project)
    }
 
@@ -62,7 +61,7 @@ export default function ProjectForm({handleSubmit, btnText, projectData}){
                 value={project.budget ? project.budget : ''}/>
             <Select
                 name="category_id" 
-                text="Selectione a categoria"
+                text="Selecione a categoria"
                 options={categories}
                 handleOnChange={handleCategory}
                 value={project.category ? project.category.id : ''}
