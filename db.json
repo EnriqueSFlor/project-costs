@@ -12,11 +12,11 @@
       "id": 3
     },
     {
-      "name": "TesteTeste",
-      "budget": "2000",
+      "name": "teste",
+      "budget": "2222",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "Infra"
       },
       "cost": 0,
       "services": [],

@@ -59,7 +59,7 @@ export default function Projects() {
             </div>
             {message && <Message type="success" msg={message}/>}
             {projectMessage && <Message type="error" msg={projectMessage}/>}
-            <Container customVlass="start">
+            <Container customClass="start">
                 {projects.length > 0 &&
                     projects.map((project) => (
                         <ProjectCard 
