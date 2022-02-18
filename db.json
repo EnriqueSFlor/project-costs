@@ -1,28 +1,6 @@
 {
   "projects": [
     {
-      "name": "Criando primeiro projeto",
-      "budget": "50000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "Teste projeto",
-      "budget": "4000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
       "name": "teste",
       "budget": "3000",
       "category": {
@@ -34,11 +12,11 @@
       "id": 3
     },
     {
-      "name": "testesteste",
-      "budget": "22222",
+      "name": "TesteTeste",
+      "budget": "2000",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
+        "id": "2",
+        "name": "Desenvolvimento"
       },
       "cost": 0,
       "services": [],
