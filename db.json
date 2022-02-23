@@ -43,8 +43,33 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 600,
+      "services": [
+        {
+          "name": [
+            "test3"
+          ],
+          "cost": [
+            "400"
+          ],
+          "description": [
+            "Faz blabla"
+          ],
+          "id": "220add9a-49d9-403a-b5d7-9949dfd3f975"
+        },
+        {
+          "name": [
+            "testeee"
+          ],
+          "cost": [
+            "200"
+          ],
+          "description": [
+            "Faz blabla"
+          ],
+          "id": "b5f04069-50f3-48a0-853a-984ca2746795"
+        }
+      ],
       "id": 4
     }
   ],
